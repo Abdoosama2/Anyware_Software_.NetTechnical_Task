@@ -1,0 +1,6 @@
+@Anyware_Software_.NetTechnical_Task_HostAddress = http://localhost:5162
+
+GET {{Anyware_Software_.NetTechnical_Task_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
