@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using TaskManagement.API.GlobalExceptionMiddleware;
 using TaskManagement.Application;
 using TaskManagement.Application.Common;
 using TaskManagement.Infrastructure;
@@ -69,7 +70,7 @@ namespace Anyware_Software_.NetTechnical_Task
                 app.UseSwaggerUI();
             }
 
-
+            app.UseExceptionHandlingMiddleware();
             app.UseHttpsRedirection();
 
             app.UseAuthentication();
