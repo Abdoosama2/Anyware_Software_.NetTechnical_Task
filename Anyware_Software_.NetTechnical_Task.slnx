@@ -1,3 +1,6 @@
 <Solution>
-  <Project Path="Anyware_Software_.NetTechnical_Task/Anyware_Software_.NetTechnical_Task.csproj" />
+  <Project Path="Anyware_Software_.NetTechnical_Task/TaskManagement.API.csproj" />
+  <Project Path="TaskManagement.Application/TaskManagement.Application.csproj" Id="d827dc0d-a373-4b69-9b15-92e93558ce30" />
+  <Project Path="TaskManagement.Domain/TaskManagement.Domain.csproj" Id="cda8f1a3-f4dd-45f8-9e5e-45f971f330c8" />
+  <Project Path="TaskManagement.Infrastructure/TaskManagement.Infrastructure.csproj" Id="138238a7-5ac0-48ba-b9ae-029b68d7fc99" />
 </Solution>
